@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+ <title></title>
+
+<script language="JavaScript">
+
+ var prevApplet = 0;
+
+ function showmap(num) {
+        opener.document.ptviewer.stopApplet(prevApplet);
+	opener.document.ptviewer.startApplet(num);
+	prevApplet = num;
+ }
+</script>
+
+</head>
+
+<body>
+
+<table border=1 style="position:absolute; top:0px; left:0px;">
+ <tr>
+  <td>
+   <a href="javascript:showmap(0)"><img src="tn_konig-mapaa.jpg" border=0></a><br>
+  </td>
+  <td>
+   <a href="javascript:showmap(1)"><img src="tn_konig-mapab.jpg" border=0></a><br>
+  </td>
+  <td>
+   <a href="javascript:showmap(2)"><img src="tn_konig-mapac.jpg" border=0></a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+   <a href="javascript:showmap(3)"><img src="tn_konig-mapad.jpg" border=0></a><br>
+  </td>
+  <td>
+   <a href="javascript:showmap(4)"><img src="tn_konig-mapae.jpg" border=0></a><br>
+  </td>
+  <td>
+   <a href="javascript:showmap(5)"><img src="tn_konig-mapaf.jpg" border=0></a><br>
+  </td>
+ </tr>
+</table>
+
+</body>
+
+</html>

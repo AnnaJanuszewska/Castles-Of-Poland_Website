@@ -1,0 +1,552 @@
+rewards-oneuidashboard # new dashboard indicator
+# regular links must have just "title", "destination", "progress", "max" and "complete"
+# for quizzes and polls, the title must also end with the word "quiz", "offerid" must be populated (value after BTROID)
+var dashboard = # dashboard start marker
+{
+    "emailPromotions": [{
+        "attributes": {
+            "title": "2019-02-27: February statement quiz",
+            "destination": "https://aka.ms/account-statement-quiz-feb",
+            "progress": "0",
+            "max": "30",
+            "complete":"False",
+            "description": "2019-02-27: February statement quiz",
+            "offerid": "ENUS_MSR_BonusQuiz_AccountStatement_Feb2019"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-26: earn 50 points exploring the 30th state link 1, first guess",
+            "destination": "https://aka.ms/February-Week4-Correct-2019",
+            "progress": "0",
+            "max": "20",
+            "complete":"False",
+            "description": "2019-02-26: earn 50 points exploring the 30th state link 1, first guess"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-26: earn 50 points exploring the 30th state link 2",
+            "destination": "https://aka.ms/February-Week4-Submod1-2019",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-26: earn 50 points exploring the 30th state link 2"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-26: earn 50 points exploring the 30th state link 3",
+            "destination": "https://aka.ms/February-Week4-Submod2-2019",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-26: earn 50 points exploring the 30th state link 3"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-26: earn 50 points exploring the 30th state link 4",
+            "destination": "https://aka.ms/February-Week4-Submod3-2019",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-26: earn 50 points exploring the 30th state link 4"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-21 its here: your winter pick-me-up email quiz quiz",
+            "destination": "https://aka.ms/Feb_US_RNL_QuizCanyons",
+            "progress": "0",
+            "max": "30",
+            "complete":"False",
+            "description": "2019-02-21 its here: your winter pick-me-up email quiz quiz",
+            "offerid": "ENUS_February2019_Newsletter_Member_Quiz"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-21 its here: your winter pick-me-up email poll quiz",
+            "destination": "https://aka.ms/Feb_US_RNL_PollLV",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-21 its here: your winter pick-me-up email poll quiz",
+            "offerid": "ENUS_RewardsDailyPoll_February2019_NL_20190206"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-20: get 50 points for Love Your Pet Day link 1, first guess",
+            "destination": "https://aka.ms/February-Week3-Correct-2019",
+            "progress": "0",
+            "max": "20",
+            "complete":"False",
+            "description": "2019-02-20: get 50 points for Love Your Pet Day link 1, first guess"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-20: get 50 points for Love Your Pet Day link 2",
+            "destination": "https://aka.ms/February-Week3-Submod1-2019",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-20: get 50 points for Love Your Pet Day link 2"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-20: get 50 points for Love Your Pet Day link 3",
+            "destination": "https://aka.ms/February-Week3-Submod2-2019",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-20: get 50 points for Love Your Pet Day link 3"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-20: get 50 points for Love Your Pet Day link 4",
+            "destination": "https://aka.ms/February-Week3-Submod3-2019",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-20: get 50 points for Love Your Pet Day link 4"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-13 Claim your free sweepstakes entry",
+            "destination": "https://aka.ms/Re_eng_Lapsed_Redeemer",
+            "progress": "0",
+            "max": "0",
+            "complete":"False",
+            "description": "2019-02-13 Claim your free sweepstakes entry"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-11: U.S. 50 points email: Bring your lab coat link 1, first guess",
+            "destination": "https://aka.ms/February-Week2-Correct-2019",
+            "progress": "0",
+            "max": "20",
+            "complete":"False",
+            "description": "2019-02-11: U.S. 50 points email: Bring your lab coat link 1, first guess"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-11: U.S. 50 points email: Bring your lab coat link 2",
+            "destination": "https://aka.ms/February-Week2-Submod1-2019",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-11: U.S. 50 points email: Bring your lab coat link 2"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-11: U.S. 50 points email: Bring your lab coat link 3",
+            "destination": "https://aka.ms/February-Week2-Submod2-2019",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-11: U.S. 50 points email: Bring your lab coat link 3"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-11: U.S. 50 points email: Bring your lab coat link 4",
+            "destination": "https://aka.ms/February-Week2-Submod3-2019",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-11: U.S. 50 points email: Bring your lab coat link 4"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-11: U.S. 50 points email: Bring your lab coat free donation",
+            "destination": "https://aka.ms/February-Week2-Donation-2019",
+            "progress": "0",
+            "max": "0",
+            "complete":"False",
+            "description": "2019-02-11: U.S. 50 points email: Bring your lab coat free donation"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-07: U.S. 50 point email link 1, first guess",
+            "destination": "https://aka.ms/February-Week1-Correct-2019",
+            "progress": "0",
+            "max": "20",
+            "complete":"False",
+            "description": "2019-02-07: U.S. 50 point email link 1, first guess"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-07: U.S. 50 point email link 2",
+            "destination": "https://aka.ms/February-Week1-Submod1",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-07: U.S. 50 point email link 2"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-07: U.S. 50 point email link 3",
+            "destination": "https://aka.ms/February-Week1-Submod2",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-07: U.S. 50 point email link 3"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-02-07: U.S. 50 point email link 4 quiz",
+            "destination": "https://aka.ms/February-Week1-Submod3",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-02-07: U.S. 50 point email link 4 quiz",
+            "offerid": "ENUS_MSR_WeeklyChallenge_UnusualJobs_20190205"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-29: U.S. 50 point email link 1, first guess",
+            "destination": "https://aka.ms/January-Week5-Correct",
+            "progress": "0",
+            "max": "20",
+            "complete":"False",
+            "description": "2019-01-29: U.S. 50 point email link 1, first guess"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-29: U.S. 50 point email link 2",
+            "destination": "https://aka.ms/January-Week5-Submod1",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-29: U.S. 50 point email link 2"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-29: U.S. 50 point email link 3",
+            "destination": "https://aka.ms/January-Week5-Submod2",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-29: U.S. 50 point email link 3"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-29: U.S. 50 point email link 4",
+            "destination": "https://aka.ms/January-Week5-Submod3",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-29: U.S. 50 point email link 4"
+        }
+    }, {
+        "attributes": {
+            "title": "Bing Search App link",
+            "destination": "https://bing.app.link/zlPqgp35iT",
+            "progress": "0",
+            "max": "0",
+            "complete":"False",
+            "description": "Bing Search App link"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-25 Reward Yourself This Year quiz",
+            "destination": "https://www.bing.com/rewards/checkuser?rabruid=0&ru=%2fsearch%3fq%3dNew+Year's+Eve+celebrations%26rnoreward%3d1%26mkt%3dEN-US%26FORM%3dML12JG%26skipopalnative%3dtrue%26rqpiodemo%3d1%26filters%3dBTEPOKey%3a%22REWARDSQUIZ_ENUS_JanWindowsNL_RewardsQuiz_20190101%22+BTROID%3a%22ENUS_MSR_NewYearsNL_Quiz%22+BTROEC%3A%220%22+BTROMC%3A%2230%22",
+            "progress": "0",
+            "max": "30",
+            "complete":"False",
+            "description": "2019-01-25 Reward Yourself This Year quiz",
+            "offerid": "ENUS_MSR_NewYearsNL_Quiz"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-28 free sweepstakes entry",
+            "destination": "https://aka.ms/Re_eng_StorePoints_FreeEarnedReceipts",
+            "progress": "0",
+            "max": "0",
+            "complete":"False",
+            "description": "2019-01-28 free sweepstakes entry"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-24 January monthly newsletter quiz quiz",
+            "destination": "https://aka.ms/account-statement-quiz-jan",
+            "progress": "0",
+            "max": "30",
+            "complete":"False",
+            "description": "2019-01-24 January monthly newsletter quiz quiz",
+            "offerid": "MSR_BonusQuiz_AccountStatement_Jan2019"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-23: U.S. 50 point email link 1, first guess",
+            "destination": "https://aka.ms/January-Week4-Correct",
+            "progress": "0",
+            "max": "20",
+            "complete":"False",
+            "description": "2019-01-23: U.S. 50 point email link 1, first guess"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-23: U.S. 50 point email link 2",
+            "destination": "https://aka.ms/January-Week4-Submod1",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-23: U.S. 50 point email link 2"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-23: U.S. 50 point email link 3",
+            "destination": "https://aka.ms/January-Week4-Submod2",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-23: U.S. 50 point email link 3"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-23: U.S. 50 point email link 4 quiz",
+            "destination": "https://aka.ms/January-Week4-Submod3",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-23: U.S. 50 point email link 4 quiz",
+            "offerid": "ENUS_MSR_WeeklyChallenge_HotAirBalloons_20190115"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-17 January monthly newsletter quiz quiz",
+            "destination": "https://aka.ms/Jan_US_RNL_ArcadeQuiz",
+            "progress": "0",
+            "max": "30",
+            "complete":"False",
+            "description": "2019-01-17 January monthly newsletter quiz quiz",
+            "offerid": "ENUS_January2019_Newsletter_Member_Quiz"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-17 January monthly newsletter poll quiz",
+            "destination": "https://aka.ms/Jan_US_RNL_Poll",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-17 January monthly newsletter poll quiz",
+            "offerid": "ENUS_RewardsDailyPoll_January2019_NL_Poll__20181228"
+        }
+    }, {
+        "attributes": {
+            "title": "15-Jan-2019: U.S. 50 point email: Tou-can do it link 1, first guess",
+            "destination": "https://aka.ms/January-Week3-Correct",
+            "progress": "0",
+            "max": "20",
+            "complete":"False",
+            "description": "15-Jan-2019: U.S. 50 point email: Tou-can do it link 1, first guess"
+        }
+    }, {
+        "attributes": {
+            "title": "15-Jan-2019: U.S. 50 point email: Tou-can do it link 2",
+            "destination": "https://aka.ms/January-Week3-Submod1",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "15-Jan-2019: U.S. 50 point email: Tou-can do it link 2"
+        }
+    }, {
+        "attributes": {
+            "title": "15-Jan-2019: U.S. 50 point email: Tou-can do it link 3",
+            "destination": "https://aka.ms/January-Week3-Submod2",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "15-Jan-2019: U.S. 50 point email: Tou-can do it link 3"
+        }
+    }, {
+        "attributes": {
+            "title": "15-Jan-2019: U.S. 50 point email: Tou-can do it link 4",
+            "destination": "https://aka.ms/January-Week3-Submod3",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "15-Jan-2019: U.S. 50 point email: Tou-can do it link 4"
+        }
+    }, {
+        "attributes": {
+            "title": "15-Jan-2019: U.S. 50 point email: Tou-can do it Free 1 donation to Special Olympics",
+            "destination": "https://aka.ms/January-Week3-Donation",
+            "progress": "0",
+            "max": "0",
+            "complete":"False",
+            "description": "15-Jan-2019: U.S. 50 point email: Tou-can do it Free 1 donation to Special Olympics"
+        }
+    }, {
+        "attributes": {
+            "title": "2018-12-28 confirming your points quiz",
+            "destination": "https://aka.ms/account-statement-quiz-dec",
+            "progress": "0",
+            "max": "30",
+            "complete":"False",
+            "description": "2018-12-28 confirming your points",
+            "offerid": "ENUS_MSR_BonusQuiz_AccountStatement_Dec18"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-14 email Surprise, New features",
+            "destination": "https://aka.ms/StatusIntro_NewYears",
+            "progress": "0",
+            "max": "0",
+            "complete":"False",
+            "description": "2019-01-14 email Surprise, New features, 50 points show on the dashboard"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-09 weekly email link 1, first guess",
+            "destination": "https://aka.ms/janwk2-correct",
+            "progress": "0",
+            "max": "20",
+            "complete":"False",
+            "description": "2019-01-09 weekly email link 1, first guess"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-09 weekly email link 2",
+            "destination": "https://aka.ms/janwk2-submod1",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-09 weekly email link 2"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-09 weekly email link 3",
+            "destination": "https://aka.ms/janwk2-submod2",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-09 weekly email link 3"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-09 weekly email link 4",
+            "destination": "https://aka.ms/janwk2-submod3",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-09 weekly email link 4"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-03 weekly email link 1, first guess",
+            "destination": "https://aka.ms/janwk1-correct",
+            "progress": "0",
+            "max": "20",
+            "complete":"False",
+            "description": "2019-01-03 weekly email link 1, first guess"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-03 weekly email link 2",
+            "destination": "https://aka.ms/janwk1-submod1",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-03 weekly email link 2"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-03 weekly email link 3",
+            "destination": "https://aka.ms/janwk1-submod2",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-03 weekly email link 3"
+        }
+    }, {
+        "attributes": {
+            "title": "2019-01-03 weekly email link 4 quiz",
+            "destination": "https://aka.ms/janwk1-poll",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2019-01-03 weekly email link 4",
+            "offerid": "ENUS_MSR_WeeklyChallenge_NewMexico_20190102"
+        }
+    }, {
+        "attributes": {
+            "title": "2018-12-25 weekly email link 1, first guess",
+            "destination": "https://aka.ms/December-week4-tft1",
+            "progress": "0",
+            "max": "0",
+            "complete":"False",
+            "description": "2018-12-25 weekly email link 1, first guess"
+        }
+    }, {
+        "attributes": {
+            "title": "2018-12-25 weekly email link 1, second guess",
+            "destination": "https://aka.ms/December-week4-tft2",
+            "progress": "0",
+            "max": "0",
+            "complete":"False",
+            "description": "2018-12-25 weekly email link 1, second guess"
+        }
+    }, {
+        "attributes": {
+            "title": "2018-12-25 weekly email link 1, third guess",
+            "destination": "https://aka.ms/December-week4-tft3",
+            "progress": "0",
+            "max": "20",
+            "complete":"False",
+            "description": "2018-12-25 weekly email link 1, third guess"
+        }
+    }, {
+        "attributes": {
+            "title": "2018-12-25 weekly email link 2",
+            "destination": "https://aka.ms/December-week4-submod1",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2018-12-25 weekly email link 2"
+        }
+    }, {
+        "attributes": {
+            "title": "2018-12-25 weekly email link 3",
+            "destination": "https://aka.ms/December-week4-submod2",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2018-12-25 weekly email link 3"
+        }
+    }, {
+        "attributes": {
+            "title": "2018-12-25 weekly email link 4 Scavenger Hunt",
+            "destination": "https://aka.ms/December-week4-submod3",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2018-12-25 weekly email link 4"
+        }
+    }, {
+        "attributes": {
+            "title": "2018-12-20 email Flip and Win free play",
+            "destination": "https://aka.ms/Dec_US_RNL_FlipWin",
+            "progress": "0",
+            "max": "0",
+            "complete":"False",
+            "description": "2018-12-20 email Flip and Win free play"
+        }
+    }, {
+        "attributes": {
+            "title": "2018-12-20 email member quiz poll quiz",
+            "destination": "https://aka.ms/Dec_US_RNL_MemberQuiz",
+            "progress": "0",
+            "max": "30",
+            "complete":"False",
+            "description": "2018-12-20 email member quiz poll quiz",
+            "offerid": "December2018_Newsletter_Member_Quiz"
+        }
+    }, {
+        "attributes": {
+            "title": "2018-12-20 email member poll poll quiz",
+            "destination": "https://aka.ms/Dec_US_RNL_Poll",
+            "progress": "0",
+            "max": "10",
+            "complete":"False",
+            "description": "2018-12-20 email member poll poll quiz",
+            "offerid": "RewardsDailyPoll_NL_Snowyday_20181203"
+        }
+    }]
+}
+appDataModule.constant # dashboard end marker

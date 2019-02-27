@@ -1,0 +1,59 @@
+<html>
+
+<head>
+
+ <title></title>
+
+<script language="JavaScript">
+  window.open("mapanav.htm", "mapanav", "top=300, left=300, width=205, height=145");
+</script>
+
+</head>
+
+<body>
+
+<applet name="ptviewer" archive=ptviewer.jar  code=ptviewer.class width=300 height=300
+ style="position:absolute; top:0px; left:0px;">
+<param name=cursor	value="MOVE">
+<param name=applet0  value="	{code= ptzoom.class} 
+				{file=konig-mapaa.jpg}
+				{progress=true}
+				{fov=2.4}
+">
+<param name=applet1  value="	{code= ptzoom.class} 
+				{file=konig-mapab.jpg}
+				{progress=true}
+				{fov=2.4}
+">
+<param name=applet2  value="	{code= ptzoom.class} 
+				{file=konig-mapac.jpg}
+				{progress=true}
+				{fov=2.4}
+">
+<param name=applet3  value="	{code= ptzoom.class} 
+				{file=konig-mapad.jpg}
+				{progress=true}
+				{fov=2.4}
+">
+<param name=applet4  value="	{code= ptzoom.class} 
+				{file=konig-mapae.jpg}
+				{progress=true}
+				{fov=2.4}
+">
+<param name=applet5  value="	{code= ptzoom.class} 
+				{file=konig-mapaf.jpg}
+				{progress=true}
+				{fov=2.4}
+">
+
+<param name=inits    value="ptviewer:startApplet(0)">
+<param name=fovmin   value= 0.1 >
+<param name=panmin   value=-1.2 >
+<param name=panmax   value= 1.2 >
+<param name=tiltmin  value=-1.2 >
+<param name=tiltmax  value= 1.2 >
+</applet>
+
+</body>
+
+</html>

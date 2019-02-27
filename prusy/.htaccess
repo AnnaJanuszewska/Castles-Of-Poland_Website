@@ -1,0 +1,40 @@
+SetEnvIfNoCase Referer "^http://.*skyscrapercity.com/showthread.php.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*skyscraperpage.com/forum/showthread.php.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*staghosting.com/community/.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*thirdreichforum.com/viewtopic.php.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*b2g3.com/boards.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*forum.axishistory.com/viewtopic.php.*" cop_thief=1
+
+SetEnvIfNoCase Referer "^wysiwyg://.*" cop_thief=1
+SetEnvIfNoCase Referer "^wyciwyg://.*" cop_thief=1
+
+SetEnvIfNoCase Referer "^http://.*europa-universalis.com/forum/showthread.php.*33201.*" cop_thief=1
+
+SetEnvIfNoCase Referer "^http://forum.paradoxplaza.com/forum/showthread.php?.*threadid=33201.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://forum.4programmers.net/viewtopic.html" cop_thief=1
+SetEnvIfNoCase Referer "^http://www.avidgamers.com/" cop_thief=1
+SetEnvIfNoCase Referer "^http://www.partypeeps2000.com/" cop_thief=1
+SetEnvIfNoCase Referer "^http://www.stormfront.org/forum/.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://mojtaba.proboards11.com/.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://mojtaba.proboards7.com/.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://www.konstanz.de/imperia/md/content/tourismus/5.pdf" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*senai.blog.pl.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*free4web.pl/3/2.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*jedenswiat.horisone.com/phpBB2/.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*tawerna.art.pl/poezja/wiersz.php.*Olenka.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*www.dol2day.com.*" cop_thief=1
+
+SetEnvIfNoCase Referer "^http://www.partypeeps2000.com/" cop_thief=1
+SetEnvIfNoCase Referer "^http://www.stluzi.ch/forum/viewtopic.php.*TopicID=78" cop_thief=1
+
+SetEnvIfNoCase Referer "^http://.*.zatorze.prv.pl.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*.dom-mojego-spokoju.blog.pl.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*.fgids.nl/viewtopic.php.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*.forumgids.nl/viewtopic.php.*" cop_thief=1
+SetEnvIfNoCase Referer "^http://.*.livejournal.com/.*" cop_thief=1
+
+SetEnvIfNoCase Referer "^http://www.beepworld.de/members58/elsaundhamlet/*" cop_thief=1
+
+RewriteEngine On
+RewriteCond %{ENV:cop_thief} =1
+RewriteRule \.(gif|jpg)$ http://www.castlesofpoland.com/banners/cop.gif  [L,R,NC]

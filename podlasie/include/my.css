@@ -1,0 +1,9 @@
+BODY, TD, TR { font-size: 16px; font-family: sans-serif; }
+H2 { font-size: 25px; }
+.s { background-color: #cd5c5c; font-size: 13px; color: #ffffff; }
+.m { font-size: 13px; }
+a {text-decoration: none}
+a:hover {text-decoration: underline}
+IMG {border-width: 0px;}
+.d { border-width: 1px 1px 1px 1px; border-style: solid; border-color: #000000; }
+.dr { border-width: 1px 1px 1px 0px; border-style: solid; border-color: #000000; }
